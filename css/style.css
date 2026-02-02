@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(238, 230, 217);
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    background-color:#331D2C ;
+    gap: 20px;
+    padding: 0 40px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+header>p{
+    padding-left: 530px;
+}
+nav{
+    flex-grow: 1;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 1;
+}
+nav ul li{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 15px 20px;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color:#A78295;
+    cursor: pointer;
+}
+.active{
+    background-color: #984871;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    color:#331D2C;
+    font-size: 40px;
+}
+#arg>h1{
+    color: #984871;
+}
+.subtitle {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.subtitle {
+  color: #984871;
+  transition: color 0.4s ease;
+}
+
+.subtitle:hover {
+  color: #331D2C;
+}
+
+.Afghanistan{ text-align: center;
+    
+}
+.cantiner{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    transition: all 3s;
+}
+
+.city-card{
+
+    background-color: #e3cfd9;
+    width: 620px;
+    height: 530px;
+    border-radius: 15px;
+     box-shadow: 0 4px 6px rgba(0, 0,  0.8);
+     margin: 8px;
+     margin-top: 2px;
+
+    
+}
+.city-card:hover{
+    transform: scale(1.05);
+    background: #331D2C;
+    color: white;
+}
+
+div img{
+    display: flex;
+    width: 580px;
+    height: 310px;
+    border-radius: 15px;
+    margin: 17px;
+}
+
+.Afghanistan>p{
+    font-size: 20px;    
+}
+#arg{
+    display: grid;
+}
+#arg:hover{
+    transform: scale(1.05);
+    background: #331D2C;
+    color: white;
+    
+}
+footer{
+    background-color: #331D2C;
+    color: aliceblue;
+    height: 50px;
+    text-align: center;
+    margin-top: 135px;
+    
+}
+.cantiner h3{
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: #984871;
+    
+}
+.kabul{
+    position: relative;
+    text-align: center;
+     transition: background 0.4s ease;
+}
+.kabul:hover {
+  background:#984871;
+  color: white;
+}
+.text{
+    display: flex;
+    margin: 20px;
+}
+p{
+    font-size: 23px;
+}
+.food{
+    display:flex ;
+     justify-content: center; 
+     gap: 20px;
+}
+.form{
+    background-color:#e3cfd9;
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 620px;
+    margin-top: 160px;
+}
+.form:hover{
+    background-color: #331D2C;
+}
+input{
+    padding: 12px !important;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: aliceblue;
+
+}
+textarea{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: aliceblue;
+}
+#submit{
+    background-color: #331D2C; 
+    color: aliceblue;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #A78295;
+}
